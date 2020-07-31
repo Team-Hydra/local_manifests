@@ -1,25 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- add github as a remote source -->
-  <!-- <remote name="github" fetch="git://github.com" /> -->
-
-    <!-- Main CM based Forks -->
-
-    <!-- remove-project name="CyanogenMod/android_frameworks_opt_telephony" / -->
-    <!-- project path="frameworks/opt/telephony" name="Team-Hydra/android_frameworks_opt_telephony" remote="github" revision="cm-13.0" / -->
-
-    <!--remove-project name="CyanogenMod/android_frameworks_native" / -->
-    <!-- project path="frameworks/native" name="Team-Hydra/android_frameworks_native" remote="github" revision="cm-13.0-test" / -->
-
-    <!-- add my device trees -->
-  <project name="Team-Hydra/android_kernel_lge_v20" path="kernel/lge/v20" remote="github" revision="cm-14.1" />
-  <project name="Team-Hydra/android_device_lge_v20-common" path="device/lge/v20-common" remote="github" revision="cm-14.1" />
-  <project name="Team-Hydra/android_device_lge_h918" path="device/lge/h918" remote="github" revision="cm-14.1" />
-  <project path="vendor/lge" name="lg-devs/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
-  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
-  <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" />
-  <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" />
-  <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" />
-
-
+  <project name="Team-Hydra/android_device_oneplus_hotdogg" path="device/oneplus/hotdogg" remote="github" revision="bliss-q" />
+  <project name="BlissRoms-Devices/android_device_oneplus_common" path="device/oneplus/common" remote="github" revision="q-7pro" />
+  <project name="Team-Hydra/android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="github" revision="bliss-q" />
+  <project name="Team-Hydra/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="q" />
+  <project name="Team-Hydra/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="bliss-q" />
 </manifest>
